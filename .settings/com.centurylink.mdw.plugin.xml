@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdw-workflow>
+  <sourceProject name="MalateshProj" author="ab94621"/>
+  <mdwFramework version="6.0.04"/>
+  <server host="localhost" port="8080" contextRoot="mdw"/>
+  <repository provider="Git" branch="master" localPath="assets"/>
+</mdw-workflow>

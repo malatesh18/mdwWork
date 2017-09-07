@@ -1,0 +1,7 @@
+build
+target
+.apt_src
+.temp
+release
+*.launch
+/bin/

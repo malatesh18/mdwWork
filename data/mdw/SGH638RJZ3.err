@@ -1,0 +1,592 @@
+170809 17:31:47 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170809 17:31:47 [Note] InnoDB: The InnoDB memory heap is disabled
+170809 17:31:47 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170809 17:31:47 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170809 17:31:47 [Note] InnoDB: Not using CPU crc32 instructions
+170809 17:31:47 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170809 17:31:47 [Note] InnoDB: Completed initialization of buffer pool
+170809 17:31:47 [Note] InnoDB: The first specified data file .\ibdata1 did not exist: a new database to be created!
+170809 17:31:47 [Note] InnoDB: Setting file .\ibdata1 size to 12 MB
+170809 17:31:47 [Note] InnoDB: Database physically writes the file full: wait...
+170809 17:31:47 [Note] InnoDB: Setting log file .\ib_logfile101 size to 48 MB
+170809 17:31:47 [Note] InnoDB: Setting log file .\ib_logfile1 size to 48 MB
+170809 17:31:48 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+170809 17:31:48 [Warning] InnoDB: New log files created, LSN=45781
+170809 17:31:48 [Note] InnoDB: Doublewrite buffer not found: creating new
+170809 17:31:48 [Note] InnoDB: Doublewrite buffer created
+170809 17:31:48 [Note] InnoDB: 128 rollback segment(s) are active.
+170809 17:31:48 [Warning] InnoDB: Creating foreign key constraint system tables.
+170809 17:31:48 [Note] InnoDB: Foreign key constraint system tables created
+170809 17:31:48 [Note] InnoDB: Creating tablespace and datafile system tables.
+170809 17:31:48 [Note] InnoDB: Tablespace and datafile system tables created.
+170809 17:31:48 [Note] InnoDB: Waiting for purge to start
+170809 17:31:48 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 0
+170809 17:31:48 [Note] Plugin 'FEEDBACK' is disabled.
+170809 17:31:52 [Note] InnoDB: FTS optimize thread exiting.
+170809 17:31:52 [Note] InnoDB: Starting shutdown...
+170809 17:31:54 [Note] InnoDB: Shutdown completed; log sequence number 1616697
+170810 12:43:25 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170810 12:43:25 [Note] InnoDB: The InnoDB memory heap is disabled
+170810 12:43:25 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170810 12:43:25 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170810 12:43:25 [Note] InnoDB: Not using CPU crc32 instructions
+170810 12:43:25 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170810 12:43:25 [Note] InnoDB: Completed initialization of buffer pool
+170810 12:43:25 [Note] InnoDB: Highest supported file format is Barracuda.
+170810 12:43:26 [Note] InnoDB: The log sequence numbers 1616697 and 1616697 in ibdata files do not match the log sequence number 2967202 in the ib_logfiles!
+170810 12:43:26 [Note] InnoDB: Database was not shutdown normally!
+170810 12:43:26 [Note] InnoDB: Starting crash recovery.
+170810 12:43:26 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170810 12:43:27 [Note] InnoDB: Restoring possible half-written data pages 
+170810 12:43:27 [Note] InnoDB: from the doublewrite buffer...
+170810 12:43:31 [Note] InnoDB: 128 rollback segment(s) are active.
+170810 12:43:31 [Note] InnoDB: Waiting for purge to start
+170810 12:43:31 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 2967202
+170810 12:43:31 [Note] Plugin 'FEEDBACK' is disabled.
+170810 12:43:31 [ERROR] mysqld.exe: Table '.\mysql\db' is marked as crashed and should be repaired
+170810 12:43:31 [Warning] Checking table:   '.\mysql\db'
+170810 12:43:31 [ERROR] mysql.db: 1 client is using or hasn't closed the table properly
+170810 12:43:31 [ERROR] mysqld.exe: Table '.\mysql\user' is marked as crashed and should be repaired
+170810 12:43:31 [Warning] Checking table:   '.\mysql\user'
+170810 12:43:31 [ERROR] mysql.user: 1 client is using or hasn't closed the table properly
+170810 12:43:33 [Note] InnoDB: FTS optimize thread exiting.
+170810 12:43:33 [Note] InnoDB: Starting shutdown...
+170810 12:43:34 [Note] InnoDB: Shutdown completed; log sequence number 2967212
+170810 12:44:42 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170810 12:44:42 [Note] InnoDB: The InnoDB memory heap is disabled
+170810 12:44:42 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170810 12:44:42 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170810 12:44:42 [Note] InnoDB: Not using CPU crc32 instructions
+170810 12:44:42 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170810 12:44:42 [Note] InnoDB: Completed initialization of buffer pool
+170810 12:44:42 [Note] InnoDB: Setting log file .\ib_logfile101 size to 48 MB
+170810 12:44:42 [Note] InnoDB: Setting log file .\ib_logfile1 size to 48 MB
+170810 12:44:43 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+170810 12:44:43 [Warning] InnoDB: New log files created, LSN=2967212
+170810 12:44:43 [Note] InnoDB: Highest supported file format is Barracuda.
+170810 12:44:43 [Note] InnoDB: 128 rollback segment(s) are active.
+170810 12:44:43 [Note] InnoDB: Waiting for purge to start
+170810 12:44:43 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 2967564
+170810 12:44:43 [Note] Plugin 'FEEDBACK' is disabled.
+170810 12:44:45 [Note] InnoDB: FTS optimize thread exiting.
+170810 12:44:45 [Note] InnoDB: Starting shutdown...
+170810 12:44:47 [Note] InnoDB: Shutdown completed; log sequence number 2967574
+170810 12:46:32 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170810 12:46:32 [Note] InnoDB: The InnoDB memory heap is disabled
+170810 12:46:32 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170810 12:46:32 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170810 12:46:32 [Note] InnoDB: Not using CPU crc32 instructions
+170810 12:46:32 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170810 12:46:32 [Note] InnoDB: Completed initialization of buffer pool
+170810 12:46:32 [Note] InnoDB: Highest supported file format is Barracuda.
+170810 12:46:32 [Note] InnoDB: The log sequence numbers 2967574 and 2967574 in ibdata files do not match the log sequence number 2968800 in the ib_logfiles!
+170810 12:46:32 [Note] InnoDB: Database was not shutdown normally!
+170810 12:46:32 [Note] InnoDB: Starting crash recovery.
+170810 12:46:32 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170810 12:46:33 [Note] InnoDB: Restoring possible half-written data pages 
+170810 12:46:33 [Note] InnoDB: from the doublewrite buffer...
+170810 12:46:33 [Note] InnoDB: 128 rollback segment(s) are active.
+170810 12:46:33 [Note] InnoDB: Waiting for purge to start
+170810 12:46:33 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 2968800
+170810 12:46:33 [Note] Plugin 'FEEDBACK' is disabled.
+170810 12:46:35 [Note] InnoDB: FTS optimize thread exiting.
+170810 12:46:35 [Note] InnoDB: Starting shutdown...
+170810 12:46:36 [Note] InnoDB: Shutdown completed; log sequence number 2968810
+170810 12:50:29 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170810 12:50:29 [Note] InnoDB: The InnoDB memory heap is disabled
+170810 12:50:29 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170810 12:50:29 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170810 12:50:29 [Note] InnoDB: Not using CPU crc32 instructions
+170810 12:50:29 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170810 12:50:29 [Note] InnoDB: Completed initialization of buffer pool
+170810 12:50:29 [Note] InnoDB: Highest supported file format is Barracuda.
+170810 12:50:29 [Note] InnoDB: The log sequence numbers 2968810 and 2968810 in ibdata files do not match the log sequence number 2972068 in the ib_logfiles!
+170810 12:50:29 [Note] InnoDB: Database was not shutdown normally!
+170810 12:50:29 [Note] InnoDB: Starting crash recovery.
+170810 12:50:29 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170810 12:50:30 [Note] InnoDB: Restoring possible half-written data pages 
+170810 12:50:30 [Note] InnoDB: from the doublewrite buffer...
+170810 12:50:30 [Note] InnoDB: 128 rollback segment(s) are active.
+170810 12:50:30 [Note] InnoDB: Waiting for purge to start
+170810 12:50:30 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 2972068
+170810 12:50:30 [Note] Plugin 'FEEDBACK' is disabled.
+170810 12:50:32 [Note] InnoDB: FTS optimize thread exiting.
+170810 12:50:32 [Note] InnoDB: Starting shutdown...
+170810 12:50:33 [Note] InnoDB: Shutdown completed; log sequence number 2972078
+170810 12:50:52 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170810 12:50:52 [Note] InnoDB: The InnoDB memory heap is disabled
+170810 12:50:52 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170810 12:50:52 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170810 12:50:52 [Note] InnoDB: Not using CPU crc32 instructions
+170810 12:50:52 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170810 12:50:52 [Note] InnoDB: Completed initialization of buffer pool
+170810 12:50:52 [Note] InnoDB: Setting log file .\ib_logfile101 size to 48 MB
+170810 12:50:52 [Note] InnoDB: Setting log file .\ib_logfile1 size to 48 MB
+170810 12:50:53 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+170810 12:50:53 [Warning] InnoDB: New log files created, LSN=2972078
+170810 12:50:53 [Note] InnoDB: Highest supported file format is Barracuda.
+170810 12:50:53 [Note] InnoDB: 128 rollback segment(s) are active.
+170810 12:50:53 [Note] InnoDB: Waiting for purge to start
+170810 12:50:54 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 2972172
+170810 12:50:54 [Note] Plugin 'FEEDBACK' is disabled.
+170810 12:50:55 [Note] InnoDB: FTS optimize thread exiting.
+170810 12:50:55 [Note] InnoDB: Starting shutdown...
+170810 12:50:57 [Note] InnoDB: Shutdown completed; log sequence number 2972182
+170811 11:26:38 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170811 11:26:38 [Note] InnoDB: The InnoDB memory heap is disabled
+170811 11:26:38 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170811 11:26:38 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170811 11:26:38 [Note] InnoDB: Not using CPU crc32 instructions
+170811 11:26:38 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170811 11:26:38 [Note] InnoDB: Completed initialization of buffer pool
+170811 11:26:38 [Note] InnoDB: Highest supported file format is Barracuda.
+170811 11:26:38 [Note] InnoDB: The log sequence numbers 2972182 and 2972182 in ibdata files do not match the log sequence number 6437861 in the ib_logfiles!
+170811 11:26:38 [Note] InnoDB: Database was not shutdown normally!
+170811 11:26:38 [Note] InnoDB: Starting crash recovery.
+170811 11:26:38 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170811 11:26:38 [Note] InnoDB: Restoring possible half-written data pages 
+170811 11:26:38 [Note] InnoDB: from the doublewrite buffer...
+170811 11:26:39 [Note] InnoDB: 128 rollback segment(s) are active.
+170811 11:26:39 [Note] InnoDB: Waiting for purge to start
+170811 11:26:39 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 6437861
+170811 11:26:39 [Note] Plugin 'FEEDBACK' is disabled.
+170811 11:26:41 [Note] InnoDB: FTS optimize thread exiting.
+170811 11:26:41 [Note] InnoDB: Starting shutdown...
+170811 11:26:43 [Note] InnoDB: Shutdown completed; log sequence number 6443156
+170811 11:27:02 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170811 11:27:02 [Note] InnoDB: The InnoDB memory heap is disabled
+170811 11:27:02 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170811 11:27:02 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170811 11:27:02 [Note] InnoDB: Not using CPU crc32 instructions
+170811 11:27:02 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170811 11:27:02 [Note] InnoDB: Completed initialization of buffer pool
+170811 11:27:02 [Note] InnoDB: Setting log file .\ib_logfile101 size to 48 MB
+170811 11:27:02 [Note] InnoDB: Setting log file .\ib_logfile1 size to 48 MB
+170811 11:27:03 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+170811 11:27:03 [Warning] InnoDB: New log files created, LSN=6443156
+170811 11:27:03 [Note] InnoDB: Highest supported file format is Barracuda.
+170811 11:27:03 [Note] InnoDB: 128 rollback segment(s) are active.
+170811 11:27:03 [Note] InnoDB: Waiting for purge to start
+170811 11:27:03 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 6443532
+170811 11:27:03 [Note] Plugin 'FEEDBACK' is disabled.
+170811 11:27:05 [Note] InnoDB: FTS optimize thread exiting.
+170811 11:27:05 [Note] InnoDB: Starting shutdown...
+170811 11:27:06 [Note] InnoDB: Shutdown completed; log sequence number 6443542
+170814 10:58:44 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170814 10:58:44 [Note] InnoDB: The InnoDB memory heap is disabled
+170814 10:58:44 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170814 10:58:44 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170814 10:58:44 [Note] InnoDB: Not using CPU crc32 instructions
+170814 10:58:44 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170814 10:58:44 [Note] InnoDB: Completed initialization of buffer pool
+170814 10:58:44 [Note] InnoDB: Highest supported file format is Barracuda.
+170814 10:58:44 [Note] InnoDB: The log sequence numbers 6443542 and 6443542 in ibdata files do not match the log sequence number 9249000 in the ib_logfiles!
+170814 10:58:44 [Note] InnoDB: Database was not shutdown normally!
+170814 10:58:44 [Note] InnoDB: Starting crash recovery.
+170814 10:58:44 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170814 10:58:44 [Note] InnoDB: Restoring possible half-written data pages 
+170814 10:58:44 [Note] InnoDB: from the doublewrite buffer...
+170814 10:58:45 [Note] InnoDB: 128 rollback segment(s) are active.
+170814 10:58:45 [Note] InnoDB: Waiting for purge to start
+170814 10:58:45 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 9249000
+170814 10:58:45 [Note] Plugin 'FEEDBACK' is disabled.
+170814 10:58:47 [Note] InnoDB: FTS optimize thread exiting.
+170814 10:58:47 [Note] InnoDB: Starting shutdown...
+170814 10:58:48 [Note] InnoDB: Shutdown completed; log sequence number 9253329
+170814 11:01:47 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170814 11:01:47 [Note] InnoDB: The InnoDB memory heap is disabled
+170814 11:01:47 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170814 11:01:47 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170814 11:01:47 [Note] InnoDB: Not using CPU crc32 instructions
+170814 11:01:47 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170814 11:01:47 [Note] InnoDB: Completed initialization of buffer pool
+170814 11:01:47 [Note] InnoDB: Highest supported file format is Barracuda.
+170814 11:01:47 [Note] InnoDB: The log sequence numbers 9253329 and 9253329 in ibdata files do not match the log sequence number 9305771 in the ib_logfiles!
+170814 11:01:47 [Note] InnoDB: Database was not shutdown normally!
+170814 11:01:47 [Note] InnoDB: Starting crash recovery.
+170814 11:01:47 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170814 11:01:47 [Note] InnoDB: Restoring possible half-written data pages 
+170814 11:01:47 [Note] InnoDB: from the doublewrite buffer...
+170814 11:01:47 [Note] InnoDB: 128 rollback segment(s) are active.
+170814 11:01:47 [Note] InnoDB: Waiting for purge to start
+170814 11:01:47 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 9305771
+170814 11:01:47 [Note] Plugin 'FEEDBACK' is disabled.
+170814 11:01:49 [Note] InnoDB: FTS optimize thread exiting.
+170814 11:01:49 [Note] InnoDB: Starting shutdown...
+170814 11:01:51 [Note] InnoDB: Shutdown completed; log sequence number 9305781
+170816 11:29:33 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170816 11:29:33 [Note] InnoDB: The InnoDB memory heap is disabled
+170816 11:29:33 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170816 11:29:33 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170816 11:29:33 [Note] InnoDB: Not using CPU crc32 instructions
+170816 11:29:33 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170816 11:29:33 [Note] InnoDB: Completed initialization of buffer pool
+170816 11:29:34 [Note] InnoDB: Highest supported file format is Barracuda.
+170816 11:29:34 [Note] InnoDB: The log sequence numbers 9305781 and 9305781 in ibdata files do not match the log sequence number 10155368 in the ib_logfiles!
+170816 11:29:34 [Note] InnoDB: Database was not shutdown normally!
+170816 11:29:34 [Note] InnoDB: Starting crash recovery.
+170816 11:29:34 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170816 11:29:34 [Note] InnoDB: Restoring possible half-written data pages 
+170816 11:29:34 [Note] InnoDB: from the doublewrite buffer...
+170816 11:29:34 [Note] InnoDB: 128 rollback segment(s) are active.
+170816 11:29:34 [Note] InnoDB: Waiting for purge to start
+170816 11:29:34 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 10155368
+170816 11:29:34 [Note] Plugin 'FEEDBACK' is disabled.
+170816 11:29:36 [Note] InnoDB: FTS optimize thread exiting.
+170816 11:29:36 [Note] InnoDB: Starting shutdown...
+170816 11:29:37 [Note] InnoDB: Shutdown completed; log sequence number 10155490
+170817 12:16:36 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170817 12:16:36 [Note] InnoDB: The InnoDB memory heap is disabled
+170817 12:16:36 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170817 12:16:36 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170817 12:16:36 [Note] InnoDB: Not using CPU crc32 instructions
+170817 12:16:36 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170817 12:16:36 [Note] InnoDB: Completed initialization of buffer pool
+170817 12:16:36 [Note] InnoDB: Highest supported file format is Barracuda.
+170817 12:16:36 [Note] InnoDB: The log sequence numbers 10155490 and 10155490 in ibdata files do not match the log sequence number 10430487 in the ib_logfiles!
+170817 12:16:36 [Note] InnoDB: Database was not shutdown normally!
+170817 12:16:36 [Note] InnoDB: Starting crash recovery.
+170817 12:16:36 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170817 12:16:36 [Note] InnoDB: Restoring possible half-written data pages 
+170817 12:16:36 [Note] InnoDB: from the doublewrite buffer...
+170817 12:16:36 [Note] InnoDB: 128 rollback segment(s) are active.
+170817 12:16:37 [Note] InnoDB: Waiting for purge to start
+170817 12:16:37 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 10430487
+170817 12:16:37 [Note] Plugin 'FEEDBACK' is disabled.
+170817 12:16:39 [Note] InnoDB: FTS optimize thread exiting.
+170817 12:16:39 [Note] InnoDB: Starting shutdown...
+170817 12:16:41 [Note] InnoDB: Shutdown completed; log sequence number 10430497
+170818 11:26:52 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170818 11:26:52 [Note] InnoDB: The InnoDB memory heap is disabled
+170818 11:26:52 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170818 11:26:52 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170818 11:26:52 [Note] InnoDB: Not using CPU crc32 instructions
+170818 11:26:52 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170818 11:26:52 [Note] InnoDB: Completed initialization of buffer pool
+170818 11:26:52 [Note] InnoDB: Highest supported file format is Barracuda.
+170818 11:26:52 [Note] InnoDB: The log sequence numbers 10430497 and 10430497 in ibdata files do not match the log sequence number 11775090 in the ib_logfiles!
+170818 11:26:52 [Note] InnoDB: Database was not shutdown normally!
+170818 11:26:52 [Note] InnoDB: Starting crash recovery.
+170818 11:26:52 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170818 11:26:53 [Note] InnoDB: Restoring possible half-written data pages 
+170818 11:26:53 [Note] InnoDB: from the doublewrite buffer...
+170818 11:26:53 [Note] InnoDB: 128 rollback segment(s) are active.
+170818 11:26:53 [Note] InnoDB: Waiting for purge to start
+170818 11:26:53 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 11775090
+170818 11:26:53 [Note] Plugin 'FEEDBACK' is disabled.
+170818 11:26:56 [Note] InnoDB: FTS optimize thread exiting.
+170818 11:26:56 [Note] InnoDB: Starting shutdown...
+170818 11:26:57 [Note] InnoDB: Shutdown completed; log sequence number 11775100
+170821 11:52:54 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170821 11:52:54 [Note] InnoDB: The InnoDB memory heap is disabled
+170821 11:52:54 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170821 11:52:54 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170821 11:52:54 [Note] InnoDB: Not using CPU crc32 instructions
+170821 11:52:54 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170821 11:52:54 [Note] InnoDB: Completed initialization of buffer pool
+170821 11:52:54 [Note] InnoDB: Highest supported file format is Barracuda.
+170821 11:52:54 [Note] InnoDB: The log sequence numbers 11775100 and 11775100 in ibdata files do not match the log sequence number 12887230 in the ib_logfiles!
+170821 11:52:54 [Note] InnoDB: Database was not shutdown normally!
+170821 11:52:54 [Note] InnoDB: Starting crash recovery.
+170821 11:52:54 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170821 11:52:55 [Note] InnoDB: Restoring possible half-written data pages 
+170821 11:52:55 [Note] InnoDB: from the doublewrite buffer...
+170821 11:52:55 [Note] InnoDB: 128 rollback segment(s) are active.
+170821 11:52:55 [Note] InnoDB: Waiting for purge to start
+170821 11:52:55 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 12887230
+170821 11:52:55 [Note] Plugin 'FEEDBACK' is disabled.
+170821 11:52:57 [Note] InnoDB: FTS optimize thread exiting.
+170821 11:52:57 [Note] InnoDB: Starting shutdown...
+170821 11:52:58 [Note] InnoDB: Shutdown completed; log sequence number 12887464
+170821 11:53:20 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170821 11:53:20 [Note] InnoDB: The InnoDB memory heap is disabled
+170821 11:53:20 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170821 11:53:20 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170821 11:53:20 [Note] InnoDB: Not using CPU crc32 instructions
+170821 11:53:20 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170821 11:53:20 [Note] InnoDB: Completed initialization of buffer pool
+170821 11:53:20 [Note] InnoDB: Setting log file .\ib_logfile101 size to 48 MB
+170821 11:53:21 [Note] InnoDB: Setting log file .\ib_logfile1 size to 48 MB
+170821 11:53:21 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+170821 11:53:21 [Warning] InnoDB: New log files created, LSN=12887464
+170821 11:53:21 [Note] InnoDB: Highest supported file format is Barracuda.
+170821 11:53:22 [Note] InnoDB: 128 rollback segment(s) are active.
+170821 11:53:22 [Note] InnoDB: Waiting for purge to start
+170821 11:53:22 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 12887564
+170821 11:53:22 [Note] Plugin 'FEEDBACK' is disabled.
+170821 11:53:23 [Note] InnoDB: FTS optimize thread exiting.
+170821 11:53:23 [Note] InnoDB: Starting shutdown...
+170821 11:53:25 [Note] InnoDB: Shutdown completed; log sequence number 12887574
+170822 11:19:47 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170822 11:19:47 [Note] InnoDB: The InnoDB memory heap is disabled
+170822 11:19:47 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170822 11:19:47 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170822 11:19:47 [Note] InnoDB: Not using CPU crc32 instructions
+170822 11:19:47 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170822 11:19:47 [Note] InnoDB: Completed initialization of buffer pool
+170822 11:19:47 [Note] InnoDB: Highest supported file format is Barracuda.
+170822 11:19:47 [Note] InnoDB: The log sequence numbers 12887574 and 12887574 in ibdata files do not match the log sequence number 15950464 in the ib_logfiles!
+170822 11:19:47 [Note] InnoDB: Database was not shutdown normally!
+170822 11:19:47 [Note] InnoDB: Starting crash recovery.
+170822 11:19:47 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170822 11:19:47 [Note] InnoDB: Restoring possible half-written data pages 
+170822 11:19:47 [Note] InnoDB: from the doublewrite buffer...
+170822 11:19:49 [Note] InnoDB: 128 rollback segment(s) are active.
+170822 11:19:49 [Note] InnoDB: Waiting for purge to start
+170822 11:19:49 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 15950464
+170822 11:19:49 [Note] Plugin 'FEEDBACK' is disabled.
+170822 11:19:52 [Note] InnoDB: FTS optimize thread exiting.
+170822 11:19:52 [Note] InnoDB: Starting shutdown...
+170822 11:19:54 [Note] InnoDB: Shutdown completed; log sequence number 15955347
+170822 11:21:39 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170822 11:21:39 [Note] InnoDB: The InnoDB memory heap is disabled
+170822 11:21:39 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170822 11:21:39 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170822 11:21:39 [Note] InnoDB: Not using CPU crc32 instructions
+170822 11:21:39 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170822 11:21:39 [Note] InnoDB: Completed initialization of buffer pool
+170822 11:21:39 [Note] InnoDB: Setting log file .\ib_logfile101 size to 48 MB
+170822 11:21:40 [Note] InnoDB: Setting log file .\ib_logfile1 size to 48 MB
+170822 11:21:40 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+170822 11:21:40 [Warning] InnoDB: New log files created, LSN=15955347
+170822 11:21:40 [Note] InnoDB: Highest supported file format is Barracuda.
+170822 11:21:40 [Note] InnoDB: 128 rollback segment(s) are active.
+170822 11:21:40 [Note] InnoDB: Waiting for purge to start
+170822 11:21:41 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 15955468
+170822 11:21:41 [Note] Plugin 'FEEDBACK' is disabled.
+170822 11:21:42 [Note] InnoDB: FTS optimize thread exiting.
+170822 11:21:42 [Note] InnoDB: Starting shutdown...
+170822 11:21:44 [Note] InnoDB: Shutdown completed; log sequence number 15955478
+170828 13:58:20 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170828 13:58:20 [Note] InnoDB: The InnoDB memory heap is disabled
+170828 13:58:20 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170828 13:58:20 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170828 13:58:20 [Note] InnoDB: Not using CPU crc32 instructions
+170828 13:58:20 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170828 13:58:20 [Note] InnoDB: Completed initialization of buffer pool
+170828 13:58:20 [Note] InnoDB: Highest supported file format is Barracuda.
+170828 13:58:20 [Note] InnoDB: The log sequence numbers 15955478 and 15955478 in ibdata files do not match the log sequence number 17822967 in the ib_logfiles!
+170828 13:58:20 [Note] InnoDB: Database was not shutdown normally!
+170828 13:58:20 [Note] InnoDB: Starting crash recovery.
+170828 13:58:20 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170828 13:58:21 [Note] InnoDB: Restoring possible half-written data pages 
+170828 13:58:21 [Note] InnoDB: from the doublewrite buffer...
+170828 13:58:21 [Note] InnoDB: 128 rollback segment(s) are active.
+170828 13:58:21 [Note] InnoDB: Waiting for purge to start
+170828 13:58:21 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 17822967
+170828 13:58:21 [Note] Plugin 'FEEDBACK' is disabled.
+170828 13:58:23 [Note] InnoDB: FTS optimize thread exiting.
+170828 13:58:23 [Note] InnoDB: Starting shutdown...
+170828 13:58:26 [Note] InnoDB: Shutdown completed; log sequence number 17827360
+170830 15:08:56 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170830 15:08:56 [Note] InnoDB: The InnoDB memory heap is disabled
+170830 15:08:56 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170830 15:08:56 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170830 15:08:56 [Note] InnoDB: Not using CPU crc32 instructions
+170830 15:08:56 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170830 15:08:56 [Note] InnoDB: Completed initialization of buffer pool
+170830 15:08:56 [Note] InnoDB: Highest supported file format is Barracuda.
+170830 15:08:56 [Note] InnoDB: The log sequence numbers 17827360 and 17827360 in ibdata files do not match the log sequence number 17856602 in the ib_logfiles!
+170830 15:08:56 [Note] InnoDB: Database was not shutdown normally!
+170830 15:08:56 [Note] InnoDB: Starting crash recovery.
+170830 15:08:56 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170830 15:08:56 [Note] InnoDB: Restoring possible half-written data pages 
+170830 15:08:56 [Note] InnoDB: from the doublewrite buffer...
+170830 15:08:57 [Note] InnoDB: 128 rollback segment(s) are active.
+170830 15:08:57 [Note] InnoDB: Waiting for purge to start
+170830 15:08:57 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 17856602
+170830 15:08:57 [Note] Plugin 'FEEDBACK' is disabled.
+170830 15:08:59 [Note] InnoDB: FTS optimize thread exiting.
+170830 15:08:59 [Note] InnoDB: Starting shutdown...
+170830 15:09:01 [Note] InnoDB: Shutdown completed; log sequence number 17856612
+170830 16:58:37 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170830 16:58:37 [Note] InnoDB: The InnoDB memory heap is disabled
+170830 16:58:37 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170830 16:58:37 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170830 16:58:37 [Note] InnoDB: Not using CPU crc32 instructions
+170830 16:58:37 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170830 16:58:37 [Note] InnoDB: Completed initialization of buffer pool
+170830 16:58:38 [Note] InnoDB: Highest supported file format is Barracuda.
+170830 16:58:38 [Note] InnoDB: The log sequence numbers 17856612 and 17856612 in ibdata files do not match the log sequence number 17857977 in the ib_logfiles!
+170830 16:58:38 [Note] InnoDB: Database was not shutdown normally!
+170830 16:58:38 [Note] InnoDB: Starting crash recovery.
+170830 16:58:38 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170830 16:58:38 [Note] InnoDB: Restoring possible half-written data pages 
+170830 16:58:38 [Note] InnoDB: from the doublewrite buffer...
+170830 16:58:38 [Note] InnoDB: 128 rollback segment(s) are active.
+170830 16:58:38 [Note] InnoDB: Waiting for purge to start
+170830 16:58:38 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 17857977
+170830 16:58:38 [Note] Plugin 'FEEDBACK' is disabled.
+170830 16:58:40 [Note] InnoDB: FTS optimize thread exiting.
+170830 16:58:40 [Note] InnoDB: Starting shutdown...
+170830 16:58:42 [Note] InnoDB: Shutdown completed; log sequence number 17857987
+170901 17:02:21 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170901 17:02:21 [Note] InnoDB: The InnoDB memory heap is disabled
+170901 17:02:21 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170901 17:02:21 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170901 17:02:21 [Note] InnoDB: Not using CPU crc32 instructions
+170901 17:02:21 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170901 17:02:21 [Note] InnoDB: Completed initialization of buffer pool
+170901 17:02:21 [Note] InnoDB: Highest supported file format is Barracuda.
+170901 17:02:21 [Note] InnoDB: The log sequence numbers 17857987 and 17857987 in ibdata files do not match the log sequence number 18764108 in the ib_logfiles!
+170901 17:02:21 [Note] InnoDB: Database was not shutdown normally!
+170901 17:02:21 [Note] InnoDB: Starting crash recovery.
+170901 17:02:21 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170901 17:02:21 [Note] InnoDB: Restoring possible half-written data pages 
+170901 17:02:21 [Note] InnoDB: from the doublewrite buffer...
+170901 17:02:22 [Note] InnoDB: 128 rollback segment(s) are active.
+170901 17:02:22 [Note] InnoDB: Waiting for purge to start
+170901 17:02:22 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 18764108
+170901 17:02:22 [Note] Plugin 'FEEDBACK' is disabled.
+170901 17:02:24 [Note] InnoDB: FTS optimize thread exiting.
+170901 17:02:24 [Note] InnoDB: Starting shutdown...
+170901 17:02:26 [Note] InnoDB: Shutdown completed; log sequence number 18764118
+170901 17:03:19 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170901 17:03:19 [Note] InnoDB: The InnoDB memory heap is disabled
+170901 17:03:19 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170901 17:03:19 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170901 17:03:19 [Note] InnoDB: Not using CPU crc32 instructions
+170901 17:03:19 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170901 17:03:19 [Note] InnoDB: Completed initialization of buffer pool
+170901 17:03:19 [Note] InnoDB: Setting log file .\ib_logfile101 size to 48 MB
+170901 17:03:20 [Note] InnoDB: Setting log file .\ib_logfile1 size to 48 MB
+170901 17:03:20 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+170901 17:03:20 [Warning] InnoDB: New log files created, LSN=18764118
+170901 17:03:20 [Note] InnoDB: Highest supported file format is Barracuda.
+170901 17:03:21 [Note] InnoDB: 128 rollback segment(s) are active.
+170901 17:03:21 [Note] InnoDB: Waiting for purge to start
+170901 17:03:21 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 18764300
+170901 17:03:21 [Note] Plugin 'FEEDBACK' is disabled.
+170901 17:03:22 [Note] InnoDB: FTS optimize thread exiting.
+170901 17:03:22 [Note] InnoDB: Starting shutdown...
+170901 17:03:24 [Note] InnoDB: Shutdown completed; log sequence number 18764310
+170901 17:45:32 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170901 17:45:32 [Note] InnoDB: The InnoDB memory heap is disabled
+170901 17:45:32 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170901 17:45:32 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170901 17:45:32 [Note] InnoDB: Not using CPU crc32 instructions
+170901 17:45:32 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170901 17:45:32 [Note] InnoDB: Completed initialization of buffer pool
+170901 17:45:32 [Note] InnoDB: Highest supported file format is Barracuda.
+170901 17:45:32 [Note] InnoDB: The log sequence numbers 18764310 and 18764310 in ibdata files do not match the log sequence number 18969588 in the ib_logfiles!
+170901 17:45:32 [Note] InnoDB: Database was not shutdown normally!
+170901 17:45:32 [Note] InnoDB: Starting crash recovery.
+170901 17:45:32 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170901 17:45:32 [Note] InnoDB: Restoring possible half-written data pages 
+170901 17:45:32 [Note] InnoDB: from the doublewrite buffer...
+170901 17:45:33 [Note] InnoDB: 128 rollback segment(s) are active.
+170901 17:45:33 [Note] InnoDB: Waiting for purge to start
+170901 17:45:33 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 18969588
+170901 17:45:33 [Note] Plugin 'FEEDBACK' is disabled.
+170901 17:45:34 [Note] InnoDB: FTS optimize thread exiting.
+170901 17:45:34 [Note] InnoDB: Starting shutdown...
+170901 17:45:36 [Note] InnoDB: Shutdown completed; log sequence number 18969614
+170901 19:01:30 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170901 19:01:30 [Note] InnoDB: The InnoDB memory heap is disabled
+170901 19:01:30 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170901 19:01:30 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170901 19:01:30 [Note] InnoDB: Not using CPU crc32 instructions
+170901 19:01:30 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170901 19:01:30 [Note] InnoDB: Completed initialization of buffer pool
+170901 19:01:30 [Note] InnoDB: Highest supported file format is Barracuda.
+170901 19:01:30 [Note] InnoDB: The log sequence numbers 18969614 and 18969614 in ibdata files do not match the log sequence number 19636318 in the ib_logfiles!
+170901 19:01:30 [Note] InnoDB: Database was not shutdown normally!
+170901 19:01:30 [Note] InnoDB: Starting crash recovery.
+170901 19:01:30 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170901 19:01:30 [Note] InnoDB: Restoring possible half-written data pages 
+170901 19:01:30 [Note] InnoDB: from the doublewrite buffer...
+170901 19:01:31 [Note] InnoDB: 128 rollback segment(s) are active.
+170901 19:01:31 [Note] InnoDB: Waiting for purge to start
+170901 19:01:31 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 19636318
+170901 19:01:31 [Note] Plugin 'FEEDBACK' is disabled.
+170901 19:01:32 [Note] InnoDB: FTS optimize thread exiting.
+170901 19:01:32 [Note] InnoDB: Starting shutdown...
+170901 19:01:34 [Note] InnoDB: Shutdown completed; log sequence number 19636328
+170901 19:25:47 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170901 19:25:47 [Note] InnoDB: The InnoDB memory heap is disabled
+170901 19:25:47 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170901 19:25:47 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170901 19:25:47 [Note] InnoDB: Not using CPU crc32 instructions
+170901 19:25:47 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170901 19:25:47 [Note] InnoDB: Completed initialization of buffer pool
+170901 19:25:47 [Note] InnoDB: Highest supported file format is Barracuda.
+170901 19:25:47 [Note] InnoDB: Log scan progressed past the checkpoint lsn 19641798
+170901 19:25:47 [Note] InnoDB: Database was not shutdown normally!
+170901 19:25:47 [Note] InnoDB: Starting crash recovery.
+170901 19:25:47 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170901 19:25:47 [Note] InnoDB: Restoring possible half-written data pages 
+170901 19:25:47 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 19641837
+170901 19:25:47 [Note] InnoDB: Starting an apply batch of log records to the database...
+InnoDB: Progress in percent: 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 
+InnoDB: Apply batch completed
+170901 19:25:48 [Note] InnoDB: 128 rollback segment(s) are active.
+170901 19:25:48 [Note] InnoDB: Waiting for purge to start
+170901 19:25:48 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 19641837
+170901 19:25:48 [Note] Plugin 'FEEDBACK' is disabled.
+170901 19:25:50 [Note] InnoDB: FTS optimize thread exiting.
+170901 19:25:50 [Note] InnoDB: Starting shutdown...
+170901 19:25:51 [Note] InnoDB: Shutdown completed; log sequence number 19641847
+170904 11:33:14 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170904 11:33:14 [Note] InnoDB: The InnoDB memory heap is disabled
+170904 11:33:14 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170904 11:33:14 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170904 11:33:14 [Note] InnoDB: Not using CPU crc32 instructions
+170904 11:33:14 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170904 11:33:14 [Note] InnoDB: Completed initialization of buffer pool
+170904 11:33:14 [Note] InnoDB: Highest supported file format is Barracuda.
+170904 11:33:14 [Note] InnoDB: The log sequence numbers 19641847 and 19641847 in ibdata files do not match the log sequence number 19664466 in the ib_logfiles!
+170904 11:33:14 [Note] InnoDB: Database was not shutdown normally!
+170904 11:33:14 [Note] InnoDB: Starting crash recovery.
+170904 11:33:14 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170904 11:33:15 [Note] InnoDB: Restoring possible half-written data pages 
+170904 11:33:15 [Note] InnoDB: from the doublewrite buffer...
+170904 11:33:15 [Note] InnoDB: 128 rollback segment(s) are active.
+170904 11:33:15 [Note] InnoDB: Waiting for purge to start
+170904 11:33:15 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 19664466
+170904 11:33:15 [Note] Plugin 'FEEDBACK' is disabled.
+170904 11:33:17 [Note] InnoDB: FTS optimize thread exiting.
+170904 11:33:17 [Note] InnoDB: Starting shutdown...
+170904 11:33:18 [Note] InnoDB: Shutdown completed; log sequence number 19664476
+170904 12:14:41 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170904 12:14:41 [Note] InnoDB: The InnoDB memory heap is disabled
+170904 12:14:41 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170904 12:14:41 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170904 12:14:41 [Note] InnoDB: Not using CPU crc32 instructions
+170904 12:14:41 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170904 12:14:41 [Note] InnoDB: Completed initialization of buffer pool
+170904 12:14:41 [Note] InnoDB: Highest supported file format is Barracuda.
+170904 12:14:41 [Note] InnoDB: The log sequence numbers 19664476 and 19664476 in ibdata files do not match the log sequence number 19665849 in the ib_logfiles!
+170904 12:14:41 [Note] InnoDB: Database was not shutdown normally!
+170904 12:14:41 [Note] InnoDB: Starting crash recovery.
+170904 12:14:41 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170904 12:14:41 [Note] InnoDB: Restoring possible half-written data pages 
+170904 12:14:41 [Note] InnoDB: from the doublewrite buffer...
+170904 12:14:41 [Note] InnoDB: 128 rollback segment(s) are active.
+170904 12:14:41 [Note] InnoDB: Waiting for purge to start
+170904 12:14:41 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 19665849
+170904 12:14:41 [Note] Plugin 'FEEDBACK' is disabled.
+170904 12:14:43 [Note] InnoDB: FTS optimize thread exiting.
+170904 12:14:43 [Note] InnoDB: Starting shutdown...
+170904 12:14:45 [Note] InnoDB: Shutdown completed; log sequence number 19665859
+170904 12:16:23 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170904 12:16:23 [Note] InnoDB: The InnoDB memory heap is disabled
+170904 12:16:23 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170904 12:16:23 [Note] InnoDB: Compressed tables use zlib 1.2.3
+170904 12:16:23 [Note] InnoDB: Not using CPU crc32 instructions
+170904 12:16:23 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+170904 12:16:23 [Note] InnoDB: Completed initialization of buffer pool
+170904 12:16:23 [Note] InnoDB: Highest supported file format is Barracuda.
+170904 12:16:23 [Note] InnoDB: The log sequence numbers 19665859 and 19665859 in ibdata files do not match the log sequence number 19666879 in the ib_logfiles!
+170904 12:16:23 [Note] InnoDB: Database was not shutdown normally!
+170904 12:16:23 [Note] InnoDB: Starting crash recovery.
+170904 12:16:23 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170904 12:16:23 [Note] InnoDB: Restoring possible half-written data pages 
+170904 12:16:23 [Note] InnoDB: from the doublewrite buffer...
+170904 12:16:24 [Note] InnoDB: 128 rollback segment(s) are active.
+170904 12:16:24 [Note] InnoDB: Waiting for purge to start
+170904 12:16:24 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.19-67.0 started; log sequence number 19666879
+170904 12:16:24 [Note] Plugin 'FEEDBACK' is disabled.
+170904 12:16:25 [Note] InnoDB: FTS optimize thread exiting.
+170904 12:16:25 [Note] InnoDB: Starting shutdown...
+170904 12:16:27 [Note] InnoDB: Shutdown completed; log sequence number 19666889

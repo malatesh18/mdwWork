@@ -1,0 +1,57 @@
+{
+  "activities": [
+    {
+      "attributes": {"WORK_DISPLAY_INFO": "x=133,y=291,w=60,h=40"},
+      "id": "A1",
+      "implementor": "com.centurylink.mdw.workflow.activity.process.ProcessStartActivity",
+      "name": "Start",
+      "transitions": [{
+        "attributes": {"TRANSITION_DISPLAY_INFO": "lx=158,ly=350,type=Elbow,xs=163&163,ys=335&366"},
+        "event": "FINISH",
+        "id": "T1",
+        "to": "A4"
+      }]
+    },
+    {
+      "attributes": {"WORK_DISPLAY_INFO": "x=498,y=367,w=60,h=40"},
+      "id": "A2",
+      "implementor": "com.centurylink.mdw.workflow.activity.process.ProcessFinishActivity",
+      "name": "Stop"
+    },
+    {
+      "attributes": {
+        "WORK_DISPLAY_INFO": "x=291,y=368,w=138,h=67",
+        "processname": "malatesh",
+        "processversion": "0.1",
+        "synchronous": "true"
+      },
+      "id": "A3",
+      "implementor": "com.centurylink.mdw.workflow.activity.process.InvokeSubProcessActivity",
+      "name": "New Invoke Subprocess",
+      "transitions": [{
+        "attributes": {"TRANSITION_DISPLAY_INFO": "lx=470,ly=381,type=Elbow,xs=433&494,ys=387&387"},
+        "event": "FINISH",
+        "id": "T3",
+        "to": "A2"
+      }]
+    },
+    {
+      "attributes": {"WORK_DISPLAY_INFO": "x=96,y=370,w=143,h=52"},
+      "id": "A4",
+      "implementor": "Restfull.firstmalateshactivity",
+      "name": "New firstmalateshactivity",
+      "transitions": [{
+        "attributes": {"TRANSITION_DISPLAY_INFO": "lx=270,ly=396,type=Elbow,xs=243&287,ys=396&396"},
+        "event": "FINISH",
+        "id": "T2",
+        "to": "A3"
+      }]
+    }
+  ],
+  "attributes": {
+    "ArrowStyle": "ArrowEnd",
+    "NodeStyle": "BoxIcon",
+    "PROCESS_VISIBILITY": "PUBLIC",
+    "WORK_DISPLAY_INFO": "x=50,y=50,w=121,h=27"
+  }
+}

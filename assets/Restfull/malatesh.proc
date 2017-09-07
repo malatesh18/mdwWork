@@ -1,0 +1,65 @@
+{
+  "activities": [
+    {
+      "attributes": {"WORK_DISPLAY_INFO": "x=96,y=241,w=60,h=40"},
+      "id": "A1",
+      "implementor": "com.centurylink.mdw.workflow.activity.process.ProcessStartActivity",
+      "name": "Start",
+      "transitions": [{
+        "attributes": {"TRANSITION_DISPLAY_INFO": "lx=126,ly=303,type=Elbow,xs=126&126,ys=285&340"},
+        "event": "FINISH",
+        "id": "T4",
+        "to": "A5"
+      }]
+    },
+    {
+      "attributes": {"WORK_DISPLAY_INFO": "x=518,y=252,w=60,h=40"},
+      "id": "A2",
+      "implementor": "com.centurylink.mdw.workflow.activity.process.ProcessFinishActivity",
+      "name": "Stop"
+    },
+    {
+      "attributes": {"WORK_DISPLAY_INFO": "x=265,y=259,w=116,h=43"},
+      "id": "A3",
+      "implementor": "Restfull.mdwactivityfirst",
+      "name": "New mdwactivityfirst",
+      "transitions": [{
+        "attributes": {"TRANSITION_DISPLAY_INFO": "lx=328,ly=363,type=Elbow,xs=331&331,ys=306&424"},
+        "event": "FINISH",
+        "id": "T2",
+        "resultCode": "NO",
+        "to": "A4"
+      }]
+    },
+    {
+      "attributes": {"WORK_DISPLAY_INFO": "x=301,y=428,w=60,h=40"},
+      "id": "A4",
+      "implementor": "Restfull.NewActivity",
+      "name": "New NewActivity",
+      "transitions": [{
+        "attributes": {"TRANSITION_DISPLAY_INFO": "lx=472,ly=375,type=Elbow,xs=365&548,ys=448&296"},
+        "event": "FINISH",
+        "id": "T3",
+        "to": "A2"
+      }]
+    },
+    {
+      "attributes": {"WORK_DISPLAY_INFO": "x=96,y=344,w=60,h=40"},
+      "id": "A5",
+      "implementor": "Restfull.FirstEvaluator",
+      "name": "New FirstEvaluator",
+      "transitions": [{
+        "attributes": {"TRANSITION_DISPLAY_INFO": "lx=203,ly=314,type=Elbow,xs=160&261,ys=364&280"},
+        "event": "FINISH",
+        "id": "T5",
+        "to": "A3"
+      }]
+    }
+  ],
+  "attributes": {
+    "ArrowStyle": "ArrowEnd",
+    "NodeStyle": "BoxIcon",
+    "PROCESS_VISIBILITY": "PUBLIC",
+    "WORK_DISPLAY_INFO": "x=50,y=50,w=84,h=27"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "category": "com.centurylink.mdw.activity.types.GeneralActivity",
+  "icon": "shape:activity",
+  "implementorClass": "QbatMicroService.QbatCrisNoEbillTaxService",
+  "label": "QbatCrisNoEbillTaxService",
+  "pagelet": "<PAGELET/>"
+}
