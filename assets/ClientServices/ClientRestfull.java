@@ -62,7 +62,7 @@ public class ClientRestfull implements java.io.Serializable
 			System.out.println("Output from Server .... \n");
 			String output = response.getEntity(String.class);
 			System.out.println(output);
-
+			System.out.println(output);
 		  } catch (Exception e) {
 
 			e.printStackTrace();
