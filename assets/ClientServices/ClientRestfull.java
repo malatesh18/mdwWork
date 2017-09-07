@@ -46,6 +46,7 @@ public class ClientRestfull implements java.io.Serializable
 			task.put("ARRefId",  123213);
 			task.put("CreateUser", "kkk");
 			json.put("TaskRequest",task);
+			System.out.println(json);
 			//String input ="{\"orderId\":\"96778\"}";
 			System.out.println(json);
 			/*ClientResponse response =webResource.type(MediaType.APPLICATION_OCTET_STREAM)
